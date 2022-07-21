@@ -66,22 +66,22 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/base_v2/base_light.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/base_v2/base_light.obj"/>
       </geometry>
     </visual>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/base_v2/body_light.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/base_v2/body_light.obj"/>
       </geometry>
     </visual>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/base_v2/torso_base.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/base_v2/torso_base.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/base_v2/base.collision.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/base_v2/base.collision.obj"/>
       </geometry>
     </collision>
   </link>
@@ -268,12 +268,12 @@ POSSIBILITY OF SUCH DAMAGE.
   <link name="base_range_sensor_link">
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/sensors/laser.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/sensors/laser.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/sensors/laser.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/sensors/laser.obj"/>
       </geometry>
     </collision>
   </link>
@@ -456,12 +456,12 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/torso_v0/torso_light.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/torso_v0/torso_light.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/torso_v0/torso.collision.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/torso_v0/torso.collision.obj"/>
       </geometry>
     </collision>
   </link>
@@ -491,12 +491,12 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/head_v1/head_pan.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/head_v1/head_pan.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/head_v1/head_pan.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/head_v1/head_pan.obj"/>
       </geometry>
     </collision>
   </link>
@@ -516,27 +516,27 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/head_v1/head_upper.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/head_v1/head_upper.obj"/>
       </geometry>
     </visual>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/head_v1/head_tilt.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/head_v1/head_tilt.obj"/>
       </geometry>
     </visual>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/head_v1/tablet_base.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/head_v1/tablet_base.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/head_v1/head.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/head_v1/head.obj"/>
       </geometry>
     </collision>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/head_v1/tablet.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/head_v1/tablet.obj"/>
       </geometry>
     </collision>
   </link>
@@ -549,7 +549,7 @@ POSSIBILITY OF SUCH DAMAGE.
     <visual>
       <origin rpy="0.0 0.0 0.0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/sensors/head_camera.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/sensors/head_camera.obj"/>
       </geometry>
     </visual>
   </link>
@@ -605,7 +605,7 @@ POSSIBILITY OF SUCH DAMAGE.
     <visual>
       <origin rpy="0.0 0.0 0.0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/sensors/head_camera.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/sensors/head_camera.obj"/>
       </geometry>
     </visual>
   </link>
@@ -710,13 +710,13 @@ POSSIBILITY OF SUCH DAMAGE.
     <visual>
       <origin rpy="0.0 0.0 0.0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/sensors/rgbd_light.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/sensors/rgbd_light.obj"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/sensors/rgbd.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/sensors/rgbd.obj"/>
       </geometry>
     </collision>
   </link>
@@ -850,12 +850,12 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/arm_v0/shoulder.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/arm_v0/shoulder.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/arm_v0/shoulder.collision.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/arm_v0/shoulder.collision.obj"/>
       </geometry>
     </collision>
   </link>
@@ -875,12 +875,12 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/arm_v0/arm_flex_light.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/arm_v0/arm_flex_light.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/arm_v0/arm_flex.collision.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/arm_v0/arm_flex.collision.obj"/>
       </geometry>
     </collision>
   </link>
@@ -900,12 +900,12 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/arm_v0/arm_roll_light.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/arm_v0/arm_roll_light.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/arm_v0/arm_roll.collision.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/arm_v0/arm_roll.collision.obj"/>
       </geometry>
     </collision>
   </link>
@@ -979,7 +979,7 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/wrist_v0/wrist_flex.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/wrist_v0/wrist_flex.obj"/>
       </geometry>
       <material name="body_sub"/>
     </visual>
@@ -1013,12 +1013,12 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/wrist_v0/wrist_roll.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/wrist_v0/wrist_roll.obj"/>
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/wrist_v0/wrist_roll.collision.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/wrist_v0/wrist_roll.collision.obj"/>
       </geometry>
     </collision>
   </link>
@@ -1094,13 +1094,13 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/palm.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/palm.obj"/>
       </geometry>
       <material name="body_sub"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/palm.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/palm.obj"/>
       </geometry>
     </collision>
   </link>
@@ -1147,13 +1147,13 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/l_proximal.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/l_proximal.obj"/>
       </geometry>
       <material name="body_sub"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/l_proximal.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/l_proximal.obj"/>
       </geometry>
     </collision>
   </link>
@@ -1188,13 +1188,13 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/l_distal.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/l_distal.obj"/>
       </geometry>
       <material name="body_sub"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/l_distal.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/l_distal.obj"/>
       </geometry>
     </collision>
   </link>
@@ -1257,13 +1257,13 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/r_proximal.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/r_proximal.obj"/>
       </geometry>
       <material name="body_sub"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/r_proximal.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/r_proximal.obj"/>
       </geometry>
     </collision>
   </link>
@@ -1298,13 +1298,13 @@ POSSIBILITY OF SUCH DAMAGE.
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/r_distal.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/r_distal.obj"/>
       </geometry>
       <material name="body_sub"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://hsr_meshes/meshes/hand_v0/r_distal.obj"/>
+        <mesh filename="https://raw.githubusercontent.com/ToyotaResearchInstitute/hsr_meshes/master/meshes/hand_v0/r_distal.obj"/>
       </geometry>
     </collision>
   </link>
